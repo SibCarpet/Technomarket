@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: {{Техномарт}}</title>
+  </head>
+  <body>
+    <header>
+      <section class="main-menu">
+        <a href="index.html">
+          <img src="img/logo.svg" height="47" width="220" alt="logo">
+        </a>
+        <form action="blank.html">
+          <img src="img/search17х17" alt="search">
+          <label>
+            Поиск:
+            <input type="text">
+          </label>
+        </form>
+        <ul>
+          <li>
+            <img src="img/bookmark14x16" alt="bookmark">
+            <p>Закладки:</p>
+            <p>0</p>
+          </li>
+          <li>
+            <img src="img/shopping_cart15x15" alt="shopping_cart">
+            <p>Корзина:</p>
+            <p>0</p>
+          </li>
+          <li>
+            <button>Оформить заказ</button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <div><p>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p></div>
+        <div>
+          <img src="img/phone19x19" alt="phone">
+          <a href="tel:+78005558628">+7 800 555-86-28</a>
+          <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+        </div>
+        <ul>
+          <li>
+            <a href="blank.html">
+              <img src="img/sign-in20x17" alt="sign-in2">Войти
+            </a>
+          </li>
+          <li><a href="blank.html">Регистрация</a></li>
+          <li>
+            <a href="blank.html">
+              <img src="img/person20x18" alt="person">Равшан Джамшутович
+            </a>
+          </li>
+          <li>
+            <a href="blank.html">Мои заказы</a>
+          </li>
+          <li>
+            <a href="blank.html">Личный кабинет</a>
+          </li>
+          <li>
+            <a href="blank.html">
+              <img src="img/sign-out20x17" alt="sign-out">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="blank.html">Компания</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="blank.html">Новости</a>
+        <a href="blank.html">Спецпредложения</a>
+        <a href="blank.html">Доставка</a>
+        <a href="blank.html">Контакты</a>
+      </nav>
+    </header>
+    <main>
+
+      <h1>Каталог</h1>
+      <ul>
+        <li><a href="index.html"></a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="blank.html">Инструмент</a></li>
+        <li>Перфораторы</li>
+      </ul>
+      <h2>Перфораторы</h2>
+
+      <section>
+        <h3>Фильтры</h3>
+        <form action="3" method="get">
+          <label for="filter-by-price">Цена:</label>
+          <input type="range" min="0" max="35000" step="1000" value="30000" id="filter-by-price">
+          <fieldset>
+            <legend>Производители</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="bosch" id="bosch" checked>
+                  bosch
+                </label>
+              </li>
+                <li><label>
+                  <input type="checkbox" name="interskol" id="interskol">
+                  интерскол
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="makita" id="makita" checked>
+                  makita
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="dewalt" id="dewalt">
+                  dewalt
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="hitachi" id="hitachi">
+                  hitachi
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </section>
+
+    </main>
+    <footer>
+      <div>
+        <a href="index.html">
+          <img src="img/logo.svg" height="47" width="220" alt="logo">
+        </a>
+        <ul>
+          <li><a href="blank.html">Компания</a></li>
+          <li><a href="blank.html">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="blank.html">Доставка</a></li>
+          <li><a href="blank.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+        <a href="tel:+78005558628">+7 800 555-86-28</a>
+        <ul>
+          <li><a href="blank.html">Материалы</a></li>
+          <li><a href="blank.html">Техника</a></li>
+          <li><a href="blank.html">Инструмент</a></li>
+          <li><a href="blank.html">Спецпредложения</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>&#169 2010–2021 Компания &#171Техномарт&#187<br>Все права защищены</p>
+        <ul>
+          <li><a><img src="img/vkontakte.png" alt="вконтакте"></a></li>
+          <li><a><img src="img/facebook.png" alt="facebook"></a></li>
+          <li><a><img src="img/insta.png" alt="instagram"></a></li>
+        </ul>
+        <p>Обратная связь:</p>
+        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        <p>Разработано &#8211</p>
+        <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+      </div>
+    </footer>
+  </body>
+</html>
