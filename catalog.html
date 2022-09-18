@@ -7,6 +7,7 @@
   <body>
     <header>
       <section class="main-menu">
+        <h2>главное меню</h2>
         <a href="index.html">
           <img src="img/logo.svg" height="47" width="220" alt="logo">
         </a>
@@ -81,8 +82,15 @@
       <section>
         <h3>Фильтры</h3>
         <form action="https://echo.htmlacademy.ru/" method="get">
-          <label for="filter-by-price">Цена:</label>
-          <input type="range" min="0" max="35000" step="1000" value="30000" id="filter-by-price">
+
+          <fieldset>
+            <legend>Цена:</legend>
+            <input type="range" name="filter-by-price" min="0" max="35000" step="1000" value="30000" id="filter-by-price">
+            <input type="number" name="price-min" id="min-price" min="0" max="35000" value="0">
+            <p>&#8212;</p>
+            <input type="number" name="price-max" id="max-price"  min="0" max="35000" value="35000">
+          </fieldset>
+
           <fieldset>
             <legend>Производители</legend>
             <ul>
@@ -117,6 +125,7 @@
               </li>
             </ul>
           </fieldset>
+
           <fieldset>
             <legend>Питание</legend>
             <ul>
@@ -139,14 +148,20 @@
       </section>
 
       <section>
+        <h2>Фильтр товаров</h2>
         <ul>
-          <li>СОРТИРОВКА:</li>
-          <li>ПО ЦЕНЕ</li>
-          <li>ПО ТИПУ</li>
-          <li>ПО ФУНКЦИОНАЛУ</li>
-          <li>по возрастанию</li>
-          <li>по убыванию</li>
+          <li>Сортировка:</li>
+          <li>По цене</li>
+          <li>По типу</li>
+          <li>По функционалу</li>
+          <li>По возрастанию</li>
+          <li>По убыванию</li>
         </ul>
+      </section>
+
+      <section>
+        <h2>Карточки товаров</h2>
+
         <ul>
           <li>
             <div>
@@ -154,7 +169,7 @@
               <button type="button">В закладки</button>
             </div>
             <img src="img/bosch_bfg_6000.jpg" alt="bosch bfg 6000">
-            <a href="blank.html"></a>
+            <a href="blank.html">
               <p>Перфоратор BOSCH<br>BFG 6000</p>
             </a>
             <p>30 500 р.</p>
@@ -166,7 +181,7 @@
               <button type="button">В закладки</button>
             </div>
             <img src="img/bosch_bfg_6000.jpg" alt="bosch bfg 6000">
-            <a href="blank.html"></a>
+            <a href="blank.html">
               <p>Перфоратор BOSCH<br>BFG 6000</p>
             </a>
             <p>30 500 р.</p>
@@ -190,7 +205,7 @@
               <button type="button">В закладки</button>
             </div>
             <img src="img/bosch_bfg_3000.jpg" alt="bosch bfg 3000">
-            <a href="blank.html"></a>
+            <a href="blank.html">
               <p>Перфоратор BOSCH<br>BFG 3000</p>
             </a>
             <p>22 500 р.</p>
@@ -283,6 +298,7 @@
       </article>
 
       <section>
+        <h2>Добавление окна в корзину</h2>
         <button type="button">Закрыть окно</button>
         <p>Товар добавлен в корзину!</p>
         <button type="button">Оформить заказ</button>
