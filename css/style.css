@@ -7,12 +7,33 @@
 }
 
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: Cuprum;
+  src: url(../fonts/cuprumbold.woff2);
+  font-weight: 700;
 }
+
+@font-face {
+  font-family: Cuprum;
+  src: url(../fonts/cuprumitalic.woff2);
+  font-weight: 400;
+  font-style: italic;
+}
+
+font font-weight font-size/line-height
+
+Cuprum 400 14/18
 Cuprum 400 14/24
+Cuprum 400 16/18
 Cuprum 400 18/24
 Cuprum 400 21/21
+Cuprum 400 30/30
 Cuprum 400 i 16/23
 Cuprum 700 21/30
+Cuprum 700 24/30
+Cuprum 700 36/36
 
+PT Sans 400 13/18
+PT Sans 400 13/24
+PT Sans 700 17/18
+PT Sans 700 17/30
+PT Sans 700 18/20
