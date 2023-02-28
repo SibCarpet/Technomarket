@@ -19,6 +19,18 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'PT Sans';
+  src: url(../fonts/ptsans.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url(../fonts/ptsansbold.woff2);
+  font-weight: 700;
+}
+
 font font-weight font-size/line-height
 
 Cuprum 400 14/18
@@ -34,6 +46,28 @@ Cuprum 700 36/36
 
 PT Sans 400 13/18
 PT Sans 400 13/24
+PT Sans 400 15/19
+PT Sans 400 17/18
 PT Sans 700 17/18
 PT Sans 700 17/30
 PT Sans 700 18/20
+
+/* Colors */
+#293449 - main-menu background, contacts background, nav наведение
+#F1F5F7 - header background, servises background, 
+#FFFFFF - text от black background or background, 
+#EE3643 - red text, red button
+#32425C - dark text main-menu, nav background, menu services, footer background
+#FFBF47 - background materials
+#3BBCE3 - background tools
+#DC91D8 - technic
+#8ED78F - background sales
+#F9F5F0 - background h2
+#EAEAEA - carts
+#A9A9A9 - grey text
+#FFD180 - contacts text
+#F7F3EC - filters background
+#63A63E - bay battons
+#000000 - grey text on light background
+#C5C5C5 - onclick log in
+#1D2739 - nav onclick
